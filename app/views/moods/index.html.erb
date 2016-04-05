@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MoodSet</title>
+    <link rel="stylesheet" href="../stylesheets/moods.css.scss">
+  </head>
+  <body>
+
+    <center>
+      <div class="moodLogo">
+          <i class="logo"></i>
+      </div>
+
+      <div class="moodBtn">
+        <a href="#">Calm</a>
+      </div>
+    </center>
+
+    <script>
+      $(document).ready(function(){
+        $('.moodBtn').onClick({
+          this.fadeOut(2000);
+        });
+      });
+    </script>
+
+  </body>
+</html>

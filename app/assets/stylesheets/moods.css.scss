@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Chewy|Sigmar+One|Courgette|Luckiest+Guy|Fugaz+One');
+
+$black: #2C2C2C;
+$white: #F2F2F2;
+$calm: #E8AEE6;
+
+html{
+    background: url('https://media.giphy.com/media/tvksqylToS0bC/giphy.gif');
+    background-size: cover;
+}
+
+.moodBtn{
+  box-sizing: border-box;
+  /*border: 1px solid rgba(242, 242, 242, 0.48);*/
+  box-shadow: 0px 15px 40px rgba(242, 242, 242, 0.48);
+  border-radius: 5px;
+  display: inline-flex;
+  position: absolute;
+  margin-top: 2em;
+  margin-left: -7em;
+
+}
+.moodBtn a {
+  font-family: 'Luckiest Guy', cursive;
+  color: $calm;
+  font-size: 5em;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: -10px -10px;
+  margin-bottom: -20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
